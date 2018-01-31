@@ -4,12 +4,12 @@
 #include <iostream>
 
 /*****************************************************************
-Renter Class
-
-Fields:
-m_name - Renters name.
-m_amount - The amount the Renter will need to pay.
-m_index - Index of current renter (id perhaps).
+				Renter Class
+		
+		Fields:
+			m_name - Renters name.
+			m_amount - The amount the Renter will need to pay.
+			m_index - Index of current renter (id perhaps).
 
 ******************************************************************/
 class Renter {
@@ -32,11 +32,11 @@ private:
 	double m_amount;
 };
 /*****************************************************************
-Controller Class
-
-Fields:
-m_payingRenter - The renter whoes paying this current mounth.
-m_renters - Vector with all renters.
+				Controller Class
+		
+		Fields:
+			m_payingRenter - The renter whoes paying this current mounth.
+			m_renters - Vector with all renters.
 
 ******************************************************************/
 class Controller
@@ -54,11 +54,7 @@ private:
 
 };
 /*****************************************************************
-Controller Class
-
-Fields:
-m_payingRenter - The renter whoes paying this current mounth.
-m_renters - Vector with all renters.
+			Utilities Class
 
 ******************************************************************/
 
